@@ -49,3 +49,7 @@ pd.Timestamp('2019-01-04').day_name()
 pd.Timestamp('2019-01-04') + pd.offsets.BDay()
 pd.Timestamp('2019-01-04') + pd.Timedelta('1 day')
 
+###
+ts['1/1/2019 01:00']
+import datetime
+ts[datetime.datetime(2019, 1, 1, 1)]
